@@ -35,10 +35,11 @@ Generate tokens for the two users, `employee1` and `employee1`:
 --data-urlencode 'password=<USER_PASSWORD'
 ```
 
-Run the spring boot project and test the API with the following cURL CRUD-based request:
-
-* GET/READ
-  *```curl -i http://localhost:8000/test/anonymous```
-  *```curl -X GET 'http://localhost:8000/test/anonymous' --header 'Authorization: bearer <TOKEN>'```
+Run the Spring Boot project and test the API with the following cURL CRUD-based requests:
+<br/>
+*```curl -i http://localhost:8000/test/anonymous```
+*```curl -X GET 'http://localhost:8000/test/admin' --header 'Authorization: bearer <TOKEN>'```
+*```curl -X GET 'http://localhost:8000/test/all-user' --header 'Authorization: bearer <TOKEN>'```
+*```curl -X GET 'http://localhost:8000/test/user' --header 'Authorization: bearer <TOKEN>'```
 
 
