@@ -32,7 +32,8 @@ Generate tokens for the two users, `employee1` and `employee1`:
 --data-urlencode 'client_id=springboot-keycloak' \
 --data-urlencode 'client_secret=<CLIENT_ID_SECRET>' \
 --data-urlencode 'username=<USER_NAME>' \
---data-urlencode 'password=<USER_PASSWORD'```
+--data-urlencode 'password=<USER_PASSWORD'
+```
 
 Run the spring boot project and test the API with the following cURL CRUD-based request:
 
